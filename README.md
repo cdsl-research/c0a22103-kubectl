@@ -10,6 +10,8 @@
     ├── my-kubectl-2.py
     └── my-kubectl-3.py
 ```
+## 実行する環境
+- Python version:3.12.3
 
 ## 各プログラム概要
 
