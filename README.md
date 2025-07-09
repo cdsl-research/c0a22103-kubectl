@@ -1,6 +1,6 @@
 # YAMLファイル収集プロジェクト
 
-## 📁 構成
+## 構成
 ```
 /home/c0a22103/
 ├── monitor_k8s_yaml.py
@@ -56,7 +56,7 @@
 
 ### `monitor_k8s_yaml.py`
 
-- **説明**:このファイルをPythonで動かして続けることで、YAMLファイルが「kubectl apply」されるまでを監視することができる。さらに、そのYAMLファイルが別のディレクトリに保存される
+- **説明**:このファイルをPythonで動かし続けることで、YAMLファイルが「kubectl apply」されるまでを監視することができる。さらに、そのYAMLファイルが別のディレクトリに保存される
 - **使い方**:
   ```bash
   c0a22103@c0a22103-practice:~/c0a22103-kubectl$ python3 monitor_k8s_yaml.py
@@ -67,7 +67,7 @@
 
 ### `apply_and_log.py`
 
-- **説明**: このファイルをPythonで動かして続けることで、YAMLファイルの内容と出力結果、「kubectl describe」コマンドの結果をログとして保存することができる。
+- **説明**: このファイルをPythonで動かし続けることで、YAMLファイルの内容と出力結果、「kubectl describe」コマンドの結果をログとして保存することができる。
 - **使い方**:
   ```bash
   c0a22103@c0a22103-practice:~/c0a22103-kubectl$ python3 apply_and_log.py
