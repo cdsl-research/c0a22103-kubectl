@@ -44,14 +44,15 @@
 
 ### `my-kubectl-3.py`
 
-- **説明**: このファイルをPythonで動かして、「kubectl」の代わりに実行することで、「get pods」を入力するとPodの状況を確認することができる。
+- **説明**: aliasコマンドで「kubectl」コマンドを実行したらPythonファイルが動くように設定する。それ以降、開発者が「kubectl」コマンドを実行するとPythonファイルを動かしながらPodの状況を確認することができる。
 - **使い方**:
   ```bash
-  c0a22103@c0a22103-practice:~/c0a22103-kubectl/practice$ python3 my-kubectl-3.py get pods
-    NAME                              READY   STATUS    RESTARTS       AGE
-    nginx-deployment-96b9d695-5l8hc   1/1     Running   1 (2d8h ago)   47d
-    nginx-deployment-96b9d695-clb8q   1/1     Running   1 (2d8h ago)   47d
-    nginx-deployment-96b9d695-wpxxp   1/1     Running   1 (2d8h ago)   47d
+  c0a22103@c0a22103-practice:~/c0a22103-kubectl/practice$ alias kubectl="python3 my-kubectl-3.py"
+  c0a22103@c0a22103-practice:~/c0a22103-kubectl/practice$ kubectl get pods
+  NAME                              READY   STATUS    RESTARTS       AGE
+  nginx-deployment-96b9d695-5l8hc   1/1     Running   1 (2d9h ago)   47d
+  nginx-deployment-96b9d695-clb8q   1/1     Running   1 (2d9h ago)   47d
+  nginx-deployment-96b9d695-wpxxp   1/1     Running   1 (2d9h ago)   47d
   ```
 
 ### `monitor_k8s_yaml.py`
