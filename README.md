@@ -5,8 +5,6 @@
 /home/c0a22103/
 ├── monitor_k8s_yaml.py
 ├── apply_and_log.py
-├── nginx-deployment.yaml
-├── nginx-service.yaml
 ├── practice/
     ├── my-kubectl-1.py
     ├── my-kubectl-2.py
