@@ -1,4 +1,4 @@
-# Kubectl support system
+# Kubicle
 
 ## 構成
 ```
