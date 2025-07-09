@@ -7,16 +7,10 @@
 ├── apply_and_log.py
 ├── nginx-deployment.yaml
 ├── nginx-service.yaml
-├── k8s-backup/
-|   ├── 20250523_034537_nginx-deployment.yaml
-|   └── 20250523_034537_nginx-service.yaml
-├── k8s-logs/
-|   ├── 20250523_034551_20250523_034537_nginx-deployment.yaml.log
-|   └── 20250523_034551_20250523_034537_nginx-service.yaml.log
 ├── practice/
-|   ├── my-kubectl-1.py
-|   ├── my-kubectl-2.py
-|   └── my-kubectl-3.py
+    ├── my-kubectl-1.py
+    ├── my-kubectl-2.py
+    └── my-kubectl-3.py
 ```
 
 ## 各プログラム概要
