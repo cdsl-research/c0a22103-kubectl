@@ -1,4 +1,4 @@
-# YAMLファイル収集プロジェクト
+# Kubectl support system
 
 ## 構成
 ```
