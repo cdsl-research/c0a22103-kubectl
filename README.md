@@ -78,20 +78,3 @@
     Applied /home/c0a22103/k8s-backup/20250709_091533_nginx-deployment.yaml, log saved to            /home/c0a22103/k8s-logs/20250709_091932_20250709_091533_nginx-deployment.yaml.log
     Applied /home/c0a22103/k8s-backup/20250707_005739_nginx-service.yaml, log saved to               /home/c0a22103/k8s-logs/20250709_091932_20250707_005739_nginx-service.yaml.log
   ```
-
-## セットアップ方法
-
-下記のステップで全体の依存関係を整えることができます。
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Windowsでは .venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-## テスト方法
-
-各プログラムフォルダには `tests/` ディレクトリがあります：
-
-```bash
-
-```
