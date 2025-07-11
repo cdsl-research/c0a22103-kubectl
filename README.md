@@ -1,4 +1,4 @@
-# Kubicle
+# Kubicle（キュービクル）
 
 ## 構成
 ```
